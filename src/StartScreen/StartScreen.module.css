@@ -1,0 +1,29 @@
+
+.bodt_dark{
+    background-color: #1e2625;
+    padding-top: 208px;
+    padding-bottom: 94px;
+}
+.bodt{
+    padding-top: 208px;
+}
+
+
+.login_h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: 18px;
+    padding-bottom: 26vh;
+    text-align: center;
+    color: #232525;
+}
+.login_h1_dark{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: 18px;
+    color:lightgray;
+    padding-bottom: 26vh;
+    text-align: center;
+}

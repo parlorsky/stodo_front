@@ -1,0 +1,40 @@
+
+
+.popup {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0;
+    pointer-events: none;
+    padding-top: 10%;
+   padding-left: 70vh;
+}
+
+
+
+.popupContent.active{
+    transform: scale(1);
+}
+
+.popup.active {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+    overflow-y: auto;
+}
+
+
+@media (max-width:1200px){
+    .popup{
+        justify-content: none;
+        display: block;
+        
+    }
+}
+
